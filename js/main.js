@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // INTRO TYPE
   // =====================
   const text = `
-사용자의 경험을 디자인하는
-UX/UI 디자이너 박주희입니다.`;
+Hi, I'm Juhee,
+a UX/UI Designer creating intuitive and 
+engaging user experiences.`;
   let i = 0;
 
   textEl.innerHTML = "";
