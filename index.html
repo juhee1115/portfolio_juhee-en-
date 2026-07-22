@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | 박주희</title>
+
+    <!-- seo 엔진 최적화 -->
+    <!-- 웹페이지의 설명을 정의 -->
+    <meta name="description" content="Portfolio | 박주희" />
+    <!-- 웹페이지와 관련된 키워드를 정의 -->
+    <meta name="keywords" content="박주희 포트폴리오" />
+    <!-- 웹페이지의 저자를 정의  -->
+    <meta name="author" content="박주희 포트폴리오" />
+    <!-- 소셜 미디어에서 페이지가 공유될때 사용되는 제목 -->
+    <meta property="og:title" content="박주희 포트폴리오" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 사이트 이름 -->
+    <meta property="og:site_name" content="박주희 포트폴리오" />
+    <!-- 소셜 미디어에서 페이지가 웹사이트임을 명시 -->
+    <meta property="og:type" content="website" />
+    <!-- Open Graph 프로토콜에서 사용되는 메타 태그의 속성 중 하나로, 
+     페이지의 간략한 설명을 제공하는 데 사용 -->
+    <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
+
+    <meta
+      property="og:url"
+      content="https://juhee-portfolio-liard.vercel.app/"
+    />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
+    <meta
+      property="og:image"
+      content="https://juhee-portfolio-liard.vercel.app/image/petlog.png"
+    />
+
+    <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
+    <meta property="og:description" content="박주희 포트폴리오 입니다." />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <!-- ================= 첫 화면 ================= -->
+    <section class="intro">
+      <div class="card" id="card">
+        <div class="envelope"></div>
+        <p class="text">
+          <br />
+          사용자의 경험을 디자인하는 UX/UI 디자이너 박주희입니다.
+        </p>
+        <div class="tag">✦ OPEN PORTFOLIO ✦</div>
+      </div>
+    </section>
+
+    <nav class="gnb">
+      <h1 class="logo">JUHEE</h1>
+
+      <button class="menu-btn" aria-label="메뉴 열기">☰</button>
+
+      <ul class="menu">
+        <button class="close-btn">✕</button>
+
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#uxui">UX/UI</a></li>
+        <li><a href="#publishing">PUBLISHING</a></li>
+        <li><a href="#design">DESIGN</a></li>
+        <li><a href="#ai">AI WORKFLOW</a></li>
+      </ul>
+    </nav>
+
+    <div id="mainPage">
+      <section class="about" id="about">
+        <div class="photo reveal">
+          <h2>About Me</h2>
+          <img src="image/juhee.jpg" alt="프로필" />
+          <div class="photo-meta">
+            <strong>박주희</strong>
+            <span>UX/UI Designer</span>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <div class="info reveal">
+            <h2>INFORMATION</h2>
+
+            <div class="row">
+              <span>MBTI</span>
+              <p>ISFP</p>
+            </div>
+
+            <div class="row">
+              <span>BIRTHDAY</span>
+              <p>2000.11.15 <small>(27세)</small></p>
+            </div>
+
+            <div class="row">
+              <span>PHONE</span>
+              <p>010-7767-2533</p>
+            </div>
+
+            <div class="row">
+              <span>E-MAIL</span>
+              <p>yelow1115@gmail.com</p>
+            </div>
+          </div>
+          <div class="about-bottom">
+            <div class="skill reveal">
+              <h2>SKILL</h2>
+
+              <div class="icons">
+                <img src="image/skill/css.png" />
+                <img src="image/skill/html.png" />
+                <img src="image/skill/Union.png" />
+                <img src="image/skill/일러스트.png" />
+                <img src="image/skill/피그마.png" />
+              </div>
+            </div>
+
+            <div class="experience reveal">
+              <h2>EXPERIENCE</h2>
+
+              <div class="career">
+                <p>UX/UI 디자인 디자이너 (그린컴퓨터)</p>
+                <p>2026.02 - 2026.07</p>
+              </div>
+
+              <div class="career">
+                <p>어학연수 (뉴질랜드)</p>
+                <p>2024.01 - 2025.10</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= UX/UI ================= -->
+      <section class="portfolio" id="uxui">
+        <h2 class="reveal">UX | UI</h2>
+
+        <div class="grid">
+          <!-- 카드 2 -->
+          <article class="project reveal">
+            <a
+              href="https://loud-baryonyx-a08.notion.site/b66b78fdd5b283399a340107ed88681b?source=copy_link"
+              ><img src="image/kakao.png" alt="카카오골프"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>카카오골프</h3>
+              <p>리디자인 | 퍼블리싱</p>
+              <p>HTML / CSS / JS</p>
+
+              <div class="btns">
+                <a
+                  href="https://www.figma.com/design/rUxqDxvgpc0aOZBr24PTzu/%EC%B9%B4%EC%B9%B4%EC%98%A4%EA%B3%A8%ED%94%84?t=NpKYrcqb9y5kb3l1-0"
+                  >FIGMA</a
+                >
+                <a href="https://kakao-golf.vercel.app/">CODING</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 카드 3 -->
+          <article class="project reveal">
+            <a
+              href="https://loud-baryonyx-a08.notion.site/ADOBE-514b78fdd5b28319b515810efef8c9aa?source=copy_link"
+              ><img src="image/adobe.png" alt="adobe"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">팀프로젝트(60%)</p>
+              <h3>ADOBE</h3>
+              <p>리디자인 | 퍼블리싱</p>
+              <p>HTML / CSS / JS</p>
+
+              <div class="btns">
+                <a
+                  href="https://www.figma.com/design/qkaSItXjG1fE6qCZmyMski/3%EC%A1%B0--%EB%B0%95%EC%A3%BC%ED%9D%AC--%EC%9C%A4%EC%84%B8%EC%98%81--%EC%A1%B0%ED%98%84%EC%A0%95-?t=NpKYrcqb9y5kb3l1-0"
+                  >FIGMA</a
+                >
+                <a href="https://adobe-re.vercel.app/#">CODING</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 카드 4 -->
+          <article class="project reveal">
+            <a
+              href="https://app.notion.com/p/37ab78fdd5b2804b9f0fc01fcfa4d8aa?source=copy_link"
+              ><img src="image/onel.png" alt="오늘수거"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>오늘수거</h3>
+              <p>랜딩페이지제작 | 퍼블리싱</p>
+              <p>HTML / CSS / JS</p>
+              <div class="btns">
+                <a
+                  href="https://www.figma.com/design/pTr4XqH5zbZci0FytqtqUg/%EC%98%A4%EB%8A%98%EC%88%98%EA%B1%B0---%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80--%EB%B0%95%EC%A3%BC%ED%9D%AC-?t=flXmY201pTKrL6eR-0"
+                  >FIGMA</a
+                >
+                <a href="https://onel-revise.vercel.app/">CODING</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= UX/UI ================= -->
+      <section class="portfolio" id="uxui">
+        <h2 class="reveal">APP 디자인</h2>
+
+        <div class="grid">
+          <!-- 카드 1 -->
+          <article class="project reveal">
+            <a
+              href="https://loud-baryonyx-a08.notion.site/PET-LOG-f30b78fdd5b2830f9e1081e38cddc2ee?source=copy_link"
+              ><img src="image/petlog.png" alt="펫로그"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>PET LOG</h3>
+              <p>APP DESIGN</p>
+              <p>FIGMA</p>
+              <div class="btns">
+                <a
+                  href="https://www.figma.com/design/Mh7VcPwM3032pB9ZgNDqqz/pet-log?t=NpKYrcqb9y5kb3l1-0"
+                  >FIGMA</a
+                >
+                <a
+                  href="https://www.figma.com/proto/Mh7VcPwM3032pB9ZgNDqqz/pet-log?node-id=2-3&t=jRXKZqN3IqMCCTWo-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A241"
+                  >PROTOTYPE</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <a
+              href="https://loud-baryonyx-a08.notion.site/AI-APP-UI-39fb78fdd5b280799c44d4972986c00c?source=copy_link"
+              ><img src="image/Aiplan.png" alt="에어플라이"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>Triply</h3>
+              <p>APP DESIGN</p>
+              <p>FIGMA</p>
+              <div class="btns">
+                <a
+                  href="https://www.figma.com/design/E1ENKReET6u2bMSky588hv/%EC%A0%9C%EB%AA%A9-%EC%97%86%EC%9D%8C?node-id=0-1&t=JObQEC2p2iqSoKGY-1"
+                  >FIGMA</a
+                >
+                <a
+                  href="https://www.figma.com/proto/E1ENKReET6u2bMSky588hv/AI%EC%97%AC%ED%96%89%ED%94%8C%EB%9E%98%EB%84%88?node-id=1-3&t=796Puf9Qqf6izLUp-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1"
+                  >PROTOTYPE</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= Publishing ================= -->
+      <section class="portfolio" id="publishing">
+        <h2 class="reveal">PUBLISHING</h2>
+
+        <div class="grid">
+          <article class="project reveal">
+            <a
+              href="https://app.notion.com/p/STX-36eb78fdd5b2809ea30dd91354f4f18c?source=copy_link"
+              ><img src="image/stx.png" alt="stx"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>STX 건설</h3>
+              <p>CLONE 코딩</p>
+              <p>HTML / CSS / JS</p>
+
+              <div class="btns">
+                <a href="https://stxcloneconing.vercel.app/">SITE</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <a
+              href="https://loud-baryonyx-a08.notion.site/379b78fdd5b2804ebfaefd9c87f8602f?source=copy_link"
+            >
+              <img src="image/exhibit.png" alt="국립현대미술관"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>국립현대미술관</h3>
+              <p>CLONE 코딩</p>
+              <p>HTML / CSS / JS</p>
+              <div class="btns">
+                <a href="https://clone-artgallery.vercel.app/">SITE</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <a
+              href="https://loud-baryonyx-a08.notion.site/36fb78fdd5b280688480ee1d2a7028f5?source=copy_link"
+            >
+              <img src="image/esim.png" alt="이심"
+            /></a>
+
+            <div class="content">
+              <p class="project-sub">개인프로젝트</p>
+              <h3>E-SIM 도시락</h3>
+              <p>CLONE 코딩</p>
+              <p>HTML / CSS / JS</p>
+
+              <div class="btns">
+                <a href="https://clone-esim.vercel.app/">SITE</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- ================= DESIGN 섹션 ================= -->
+
+      <section class="portfolio" id="design">
+        <h2 class="reveal">DESIGN</h2>
+
+        <div class="grid design-grid">
+          <!-- 카드 2 -->
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/banner-2.png"
+                alt="젠틀몬스터 상세페이지"
+                data-detail="image/design-detialpage.jpg"
+              />
+            </div>
+
+            <p>젠틀몬스터 [상세페이지]</p>
+          </article>
+
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/design-page2.jpg"
+                alt="킬러들의 쇼핑몰 상세페이지"
+                data-detail="image/design-page2.jpg"
+              />
+            </div>
+
+            <p>킬러들의 쇼핑몰 [상세페이지]</p>
+          </article>
+
+          <!-- 카드 3 -->
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/banner3.png"
+                alt="ROUTE 로고제작"
+                data-detail="image/design-logo.jpg"
+              />
+            </div>
+
+            <p>ROUTE [로고제작]</p>
+          </article>
+
+          <!-- 카드 4 -->
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/banner4.png"
+                alt="누룽지팝 SNS카드뉴스"
+                data-detail="image/design-pop.jpg"
+              />
+            </div>
+
+            <p>누룽지팝 [SNS카드뉴스]</p>
+          </article>
+
+          <!-- 카드 5 -->
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/design-5.jpg"
+                alt="락토프리 SNS카드뉴스"
+                data-detail="image/design-5.jpg"
+              />
+            </div>
+
+            <p>락토프리 우유 [SNS카드뉴스]</p>
+          </article>
+
+          <!-- 카드 6-->
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/design-6.jpg"
+                alt="리크루트 SNS카드뉴스"
+                data-detail="image/design-6.jpg"
+              />
+            </div>
+
+            <p>인턴채용 [SNS카드뉴스]</p>
+          </article>
+          <!-- 카드 7-->
+          <article class="design-item reveal">
+            <div class="thumb">
+              <img
+                src="image/design-7.jpg"
+                alt="파파레서피 할인 SNS카드뉴스"
+                data-detail="image/design-7.jpg"
+              />
+            </div>
+
+            <p>파파레서피 할인 [SNS카드뉴스]</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= AI 섹션 ================= -->
+      <section class="ai-workflow reveal" id="ai">
+        <h2>AI Workflow</h2>
+
+        <p class="ai-desc">
+          AI를 단순한 생성 도구가 아닌, 리서치부터 기획·디자인·개발까지 생산성과
+          품질을 높이는 협업 도구로 활용했습니다.
+        </p>
+
+        <div class="ai-grid">
+          <article class="ai-card reveal">
+            <div class="ai-top">
+              <span class="number">01</span>
+
+              <div>
+                <h3>Research</h3>
+                <small>ChatGPT · FigJam</small>
+              </div>
+            </div>
+
+            <p>사용자 리서치와 경쟁 서비스 분석을 빠르게 정리했습니다.</p>
+
+            <img src="image/aitool-figma.png" alt="Research" />
+          </article>
+
+          <article class="ai-card reveal">
+            <div class="ai-top">
+              <span class="number">02</span>
+
+              <div>
+                <h3>Ideation</h3>
+
+                <small>FigJam</small>
+              </div>
+            </div>
+
+            <p>브레인스토밍과 UX Writing 초안을 작성했습니다.</p>
+
+            <img src="image/aitool-2.png" alt="Idea" />
+          </article>
+
+          <article class="ai-card reveal">
+            <div class="ai-top">
+              <span class="number">03</span>
+
+              <div>
+                <h3>IA · User Flow</h3>
+
+                <small>FigJam AI</small>
+              </div>
+            </div>
+
+            <p>정보구조와 사용자 흐름을 효율적으로 설계했습니다.</p>
+
+            <img src="image/aitool-3.png" alt="IA" />
+          </article>
+
+          <article class="ai-card reveal">
+            <div class="ai-top">
+              <span class="number">04</span>
+
+              <div>
+                <h3>UI Design</h3>
+
+                <small>ChatGPT</small>
+              </div>
+            </div>
+
+            <p>와이어프레임과 UI를 빠르게 제작했습니다.</p>
+
+            <img src="image/aitool-5.png" alt="UI" />
+          </article>
+
+          <article class="ai-card reveal">
+            <div class="ai-top">
+              <span class="number">05</span>
+
+              <div>
+                <h3>Development</h3>
+
+                <small>ChatGPT · Claude</small>
+              </div>
+            </div>
+
+            <p>HTML · CSS · JavaScript 구현과 디버깅에 활용했습니다.</p>
+
+            <img src="image/aitool-4.png" alt="Code" />
+          </article>
+
+          <article class="ai-card reveal">
+            <div class="ai-top">
+              <span class="number">06</span>
+
+              <div>
+                <h3>Testing</h3>
+
+                <small>ChatGPT</small>
+              </div>
+            </div>
+
+            <p>오류 수정 및 코드 개선을 진행했습니다.</p>
+
+            <img src="image/aitool-6.png" alt="Debug" />
+          </article>
+        </div>
+      </section>
+
+      <!-- ================= modal 섹션 ================= -->
+      <div class="modal" id="modal">
+        <div class="modal-bg"></div>
+
+        <div class="modal-content">
+          <img src="" alt="detail image" id="modal-img" />
+          <p id="modal-text"></p>
+
+          <button class="close">✕</button>
+        </div>
+      </div>
+
+      <section class="stack">
+        <div class="marquee left">
+          <div class="track">
+            <span>Design</span>
+            <span>UX/UI</span>
+            <span>Prototype</span>
+            <span>Responsive</span>
+            <span>Interaction</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Figma</span>
+            <span>Illustrator</span>
+            <span>Photoshop</span>
+
+            <!-- 반복 -->
+            <span>Design</span>
+            <span>UX/UI</span>
+            <span>Prototype</span>
+            <span>Responsive</span>
+            <span>Interaction</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Figma</span>
+            <span>Illustrator</span>
+            <span>Photoshop</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= Footer ================= -->
+      <footer class="footer">
+        <h2 class="reveal">THANK YOU</h2>
+
+        <p class="footer-text">
+          끝까지 봐주셔서 감사합니다.<br />
+          함께 성장할 수 있는 기회를 기다리고 있습니다.
+        </p>
+
+        <div class="footer-contact">
+          <div>
+            <span>EMAIL</span>
+            <p>yelow1115@gmail.com</p>
+          </div>
+
+          <div>
+            <span>PHONE</span>
+            <p>010 · 7767 · 2533</p>
+          </div>
+        </div>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-bottom">
+          <div class="footer-links">
+            <a href="https://github.com/juhee1115">Github</a>
+            <a
+              href="https://www.figma.com/files/team/1620621557248464560/drafts?fuid=1610898890179707648"
+              >Figma</a
+            >
+            <a
+              href="https://loud-baryonyx-a08.notion.site/JUHEE-PARK-0abb78fdd5b2828aba7a012ffb302b57?source=copy_link"
+              >Notion</a
+            >
+          </div>
+
+          <small>© 2026 JUHEE</small>
+        </div>
+      </footer>
+    </div>
+
+    <script src="js/reveal.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
