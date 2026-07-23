@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // =====================
   const text = `
 Hi, I'm Juhee,
-a UX/UI Designer creating intuitive and 
-engaging user experiences.`;
+a UX/UI Designer who creates intuitive digital experiences
+through user-centered design.`;
   let i = 0;
 
   textEl.innerHTML = "";
